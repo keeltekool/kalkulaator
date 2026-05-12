@@ -8,6 +8,7 @@ const CALCULATORS = [
   { href: '/palgakalkulaator', title: 'Palgakalkulaator 2026', desc: 'Tööandja kulu, bruto- ja netopalk', icon: '💰', tag: 'UUS' },
   { href: '/kaibemaksukalkulaator', title: 'Käibemaksukalkulaator', desc: 'Hind koos ja ilma käibemaksuta', icon: '🧾', tag: 'UUS' },
   { href: '/laenukalkulaator', title: 'Laenukalkulaator', desc: 'Kuumakse, intress, periood või laenusumma', icon: '🏦', tag: 'UUS' },
+  { href: '/maksuvaba-tulu-kalkulaator', title: 'Maksuvaba tulu', desc: 'Arvuta maksuvaba tulu sissetuleku põhjal', icon: '📊', tag: 'UUS' },
 ]
 
 export default function Home() {
