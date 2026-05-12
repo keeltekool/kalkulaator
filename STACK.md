@@ -1,9 +1,9 @@
 # Kalkulaator — STACK
 
-**Last updated:** 2026-05-10
+**Last updated:** 2026-05-12
 
 ## Overview
-Estonian calculator aggregator. First calculator: Automaksu kalkulaator (vehicle tax). Competing with kalkulaator.ee.
+Estonian calculator aggregator. Two calculators live: Automaksu kalkulaator (vehicle tax) + Palgakalkulaator (salary/payroll). Competing with kalkulaator.ee.
 
 ## Live URLs
 - **Production:** https://kalkulaator-six.vercel.app
@@ -20,8 +20,14 @@ Estonian calculator aggregator. First calculator: Automaksu kalkulaator (vehicle
 | Hosting | Vercel |
 | Database | None (pure client-side calculation) |
 
+## Routes
+- `/` — Aggregator homepage with calculator cards
+- `/automaks` — Vehicle tax calculator
+- `/palgakalkulaator` — Salary/payroll calculator
+
 ## Features
 - Automaks calculator with exact parity to kalkulaator.ee
+- Salary calculator with exact parity (185 total tests, 12 salary golden fixtures)
 - All vehicle types: M1/N1/motorcycles/ATVs/tractors
 - All engine types: ICE, hybrid, plug-in hybrid, electric
 - CO₂ modes: WLTP, NEDC (with coefficient), missing (estimated)
@@ -50,7 +56,8 @@ Estonian calculator aggregator. First calculator: Automaksu kalkulaator (vehicle
 None required. Pure client-side.
 
 ## Future Phases
-- Phase 2: Salary calculator (palgakalkulaator)
+- Phase 2: Salary calculator (palgakalkulaator) source handoff ready in `docs/handoffs/2026-05-12-salary-calculator-source-handoff.md`
 - Phase 3: VAT calculator (käibemaksukalkulaator)
+- Phase 3 handoff: `docs/handoffs/2026-05-12-vat-calculator-source-handoff.md`
 - Phase 4: Loan calculator (laenukalkulaator)
 - Aggregator homepage when 4+ calculators exist
