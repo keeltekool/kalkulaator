@@ -15,8 +15,8 @@ const jetbrains = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Automaksu kalkulaator | Kalku",
-  description: "Arvuta oma sõiduki aastamaks ja registreerimistasu. Eesti mootorsõidukimaksu kalkulaator 2025/2026.",
+  title: "Kalku — Eesti kalkulaatorid",
+  description: "Täpsed, reklaamivabad, mobiilisõbralikud kalkulaatorid. Automaks, palgakalkulaator ja palju muud.",
 }
 
 export default function RootLayout({
