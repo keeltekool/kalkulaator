@@ -58,5 +58,5 @@ Estonian calculator aggregator. Three calculators live: Automaks + Palgakalkulaa
 None required. Pure client-side.
 
 ## Future Phases
-- Phase 4: Loan calculator (laenukalkulaator)
+- Phase 4: Loan calculator (laenukalkulaator) source handoff ready: `docs/handoffs/2026-05-12-loan-calculator-source-handoff.md`
 - More calculators: BMI, fuel consumption, currency converter, etc.

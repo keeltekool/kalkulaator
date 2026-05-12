@@ -7,6 +7,7 @@ const CALCULATORS = [
   { href: '/automaks', title: 'Automaksu kalkulaator', desc: 'Arvuta sõiduki aastamaks ja registreerimistasu', icon: '🚗', tag: 'UUS' },
   { href: '/palgakalkulaator', title: 'Palgakalkulaator 2026', desc: 'Tööandja kulu, bruto- ja netopalk', icon: '💰', tag: 'UUS' },
   { href: '/kaibemaksukalkulaator', title: 'Käibemaksukalkulaator', desc: 'Hind koos ja ilma käibemaksuta', icon: '🧾', tag: 'UUS' },
+  { href: '/laenukalkulaator', title: 'Laenukalkulaator', desc: 'Kuumakse, intress, periood või laenusumma', icon: '🏦', tag: 'UUS' },
 ]
 
 export default function Home() {
