@@ -17,6 +17,13 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Kalku — Eesti kalkulaatorid",
   description: "Täpsed, reklaamivabad, mobiilisõbralikud kalkulaatorid. Automaks, palgakalkulaator ja palju muud.",
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
 }
 
 export default function RootLayout({
